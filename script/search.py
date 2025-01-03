@@ -25,9 +25,9 @@ def find_images_in_subfolders(parent_folder, target_image_names, output_txt):
                     f.write(f'  在该文件夹中未找到任何指定的图片\n')
                 f.write('\n')
 
-parent_folder_path = r"D:\task\EcologicalEnvironment\test_bin"  # 替换为你的父文件夹路径
-images_to_find = ["ko00010.png", "ko00020.png"]  # 替换为你想要查找的图片名称列表
-output_txt_path = r"D:\task\EcologicalEnvironment\result\result.txt"  # 设置输出 TXT 文件的路径
+parent_folder_path = r"/path/to/your/parent/folder"  # 替换为你的父文件夹路径
+images_to_find = ["example.png", "image1.png", "image2.png"]  # 替换为你想要查找的图片名称列表
+output_txt_path = r"image_search_results.txt"  # 设置输出 TXT 文件的路径
 
 find_images_in_subfolders(parent_folder_path, images_to_find, output_txt_path)
 
