@@ -1,6 +1,6 @@
 # Project for Ecological Environment Data
 
-# MAG_search_ImportantGeneID用来处理数据：输出目标文件夹下所有MAG的MAG_ID,重要ID,次重要ID，重要ID个数,次重要ID个数
+# MAG_search_ImportantGeneID用来处理数据：输出目标文件夹下所有MAG的在各个重要途径下匹配的基因类型和个数
 
 ## 下载路径
 
