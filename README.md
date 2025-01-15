@@ -18,7 +18,7 @@ os
     step3:将output_path替换为存储输出结果的xlsx文件路径
     step4:运行脚本
 
-## 脚本search.py：寻找所有文件夹下所需的MAG图片并输出相应的图片信息
+# 脚本search.py：寻找所有文件夹下所需的MAG图片并输出相应的图片信息
 
 ### search.py 可以从以下路径下载 [search.py](https://github.com/Intelligent-Detection-611/miaoxufan/blob/main/script/search.py)
 
@@ -32,7 +32,7 @@ pip install os
     step3:将 image_search_results.txt 替换为你想要保存的 TXT 文件的路径和文件名。
     step4:运行脚本。
 
-## 脚本compare.py：比较两个文件夹下的MAG图片并输出独有和共有的图片信息
+# 脚本compare.py：比较两个文件夹下的MAG图片并输出独有和共有的图片信息
 
 ### compare.py 可以从以下路径下载 [compare.py](https://github.com/Intelligent-Detection-611/miaoxufan/blob/main/script/compare.py)
 
