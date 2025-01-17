@@ -44,7 +44,7 @@ def get_Important_ID(file_path, sheet_name):
     Ethanol_GeneID = read_excel_column_to_list(file_path, sheet_name[4], column_index=3)
 
     # 获取RBO
-    RBO_GeneID = read_excel_column_to_list(file_path, sheet_name[4], column_index=3)
+    RBO_GeneID = read_excel_column_to_list(file_path, sheet_name[5], column_index=3)
 
     # 获取重要基因的KO_ID
     Important_GeneID = read_excel_column_to_list(file_path, sheet_name[6], column_index=3)
